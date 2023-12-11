@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>German University of digital science</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="assets/hamburger.css">
+    <link rel="stylesheet" href="assets/slider.css">
+
+</head>
+
+<body>
+
+
+    <div id="header" class="topnav">
+
+        <section class="top-nav">
+            <div>
+                <img id="logo" src="img/logo.png" alt="Logo">
+            </div>
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+            </label>
+            <ul class="menu myLinks">
+                <li>
+                    <a href="#" >Our Mission</a> </li>
+                <li> <a href="#">Our Strategy</a></li>
+                <li> <a href="#">About Us</a></li>
+                <li> <a href="#">Partners</a></li>
+                <li><a href="#">Study at the German Uds</a></li>
+                <li><a href="#" class="get-in-touch">Get in Touch</a></li>
+                <li></li>
+            </ul>
+        </section>
+
+        <div class="container">
+            <div id="video-text">
+                <img src="img/video-icon.png" alt="Video Icon">
+            </div>
+
+            <div id="header-text">
+                <p>Education reimagined</p>
+            </div>
+            <div id="sub-header-text">
+                <p>For the Digital Transformers of Tomorrow</p>
+            </div>
+            <div id="small-text">
+                <p>Invest in the Future of Education</p>
+            </div>
+            <div class="content"></div>
+
+            <div id="buttons">
+                <button class="orange-button">Join the Movement</button>
+                <button class="white-button">Download Our Strategy 2023</button>
+            </div>
+        </div>
+
+    </div>
+    <!-- top nav -->
+
+<style>
+  .logo-container {
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    .logo-slider {
+      /* display: inline-block; */
+      /* animation: slide 35s linear infinite; Adjust the duration as needed */
+    }
+
+
+    @keyframes slide {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+</style>
+
+<div class="logo-container">
+    <div id="logo-section" class="logo-slider">
+        <div class="logo-item"><img src="/logos/Logos.png" alt="Microsoft Logo"></div>
+        <div class="logo-item"><img src="/logos/Logos1.png" alt="Logo"></div>
+        <div class="logo-item"><img src="/logos/Logos2.png" alt="Logo"></div>
+        <div class="logo-item"><img src="/logos/Logos3.png" alt="Logo"></div>
+        <div class="logo-item"><img src="/logos/Logos4.png" alt="Logo"></div>
+        <div class="logo-item"><img src="/logos/Logos5.png" alt="Logo"></div>
+        <div class="logo-item"><img src="/logos/Logos6.png" alt="Logo"></div>
+        <div class="logo-item"><img src="/logos/Logos7.png" alt="Microsoft Logo"></div>
+    </div>
+</div> 
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script>
+
+$(document).ready(function(){
+    $('.logo-slider').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3
+            }
+        }]
+    });
+});
+</script>
+
+</body>
+
+</html>

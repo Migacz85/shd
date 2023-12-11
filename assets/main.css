@@ -1,0 +1,197 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Blinker', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+p {
+    margin:0px;
+}
+
+#header {
+    color: var(--base-colours-white, #FFF);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 40px */
+    background: url('../img/background-image.png') center/cover no-repeat;
+    height: 90%;
+    position: relative;
+    color: white;
+}
+
+#logo {
+    margin-left: -30px;
+    margin-top: 60px;
+    padding: 0px;
+}
+
+#nav {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    margin-left: 400px;
+    margin-right: 100px;
+}
+
+
+#nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#mission,
+#strategy,
+#about,
+#partners,
+#study,
+#contact {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#header-text {
+
+    margin-top: 120px;
+    font-weight: bold;
+}
+
+#sub-header-text {
+    margin-top:10px;
+    color: var(--base-colours-white, #FFF);
+font-family: Blinker;
+font-size: 40px;
+font-style: normal;
+font-weight: 200;
+line-height: 100%; /* 40px */
+}
+
+#small-text {
+    margin-top:20px;
+    color: var(--base-colours-white, #FFF);
+font-family: Source Sans Pro;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 27px */
+
+}
+.content{
+
+    flex:1;
+}
+
+.orange-button {
+    
+font-weight:bold;
+border:none;
+padding: 16px 48px;
+width:100%;
+margin-bottom:10px;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+    border-radius: 0px 0px 12px 0px;
+background: var(--german-uds-primary-orange-500, #FF8B00);
+
+}
+
+.white-button {
+    
+font-weight:bold;
+background:transparent;
+padding: 16px 48px;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+border-radius: 0px 0px 8px 0px;
+border: 3px solid var(--base-colours-white, #FFF);
+color: 3px solid var(--base-colours-white, #FFF);
+width:100%;
+}
+
+
+#video-text {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+#logo-section {
+    margin: 10px;
+}
+
+.logo-slider {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-item {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.container {
+    margin:30px;
+    display:flex;
+    flex-direction: column;
+    min-height: 50vh;
+}
+
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    /* background-color: #333; */
+    position: relative;
+}
+
+/* Hide the links inside the navigation border:none;menu (except for logo/home) */
+.topnav #myLinks {
+    display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+    color: white;
+    /* padding: 14px 16px; */
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+    background: white; 
+    
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+
+.topnav a:hover {
+    /* background-color: #ddd; */
+    color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+#buttons {
+    position: absolute;
+    bottom:0;
+    margin-bottom:40px;
+    margin-right: 30px;
+}
