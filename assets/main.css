@@ -8,8 +8,152 @@ body {
 }
 p {
     margin:0px;
+
+}
+/* section */
+
+.title1{
+    color: var(--german-uds-primary-blue-500, #000064);
+    /* Copy md/Source Sans Pro Bold */
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    margin:0px;
+    padding:0px
 }
 
+.title2{
+color: var(--german-uds-primary-blue-500, #000064);
+/* Headline sm/Blinker Light */
+text-align: left;
+font-family: Blinker;
+font-size: 32px;
+font-style: normal;
+font-weight: 300;
+padding:0px;
+margin:0px;
+
+}
+
+.section1 {
+    padding: 64px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+    background: #deebff;
+}
+
+
+.section1 {
+    padding: 64px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+    background: #deebff;
+}
+
+.section2 {
+    padding: 64px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    /* background: #DEEBFF; */
+}
+
+.section1 img {
+    margin-top: 40px;
+}
+
+.section2 img {
+        position: absolute;
+        margin-top:40px;
+        left: 0;
+}
+
+
+.paragraph {
+ color: var(--german-uds-primary-light-blue-900, #344864);
+font-family: Source Sans Pro;
+font-size: 18px;
+font-weight: 400;
+text-align: justify;
+}
+
+.paragraph2 {
+ color: var(--german-uds-primary-light-blue-900, #344864);
+font-family: Source Sans Pro;
+font-size: 18px;
+font-weight: 400;
+text-align: justify;
+}
+
+@media only screen and (min-width: 768px) { 
+
+.section1 img {
+    margin-top: -110px;
+    margin-bottom: -220px;  
+}
+
+.section2 {
+    padding: 64px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    /* background: #DEEBFF; */
+}
+
+.paragraph2 {
+ color: var(--german-uds-primary-light-blue-900, #344864);
+font-family: Source Sans Pro;
+font-size: 18px;
+font-weight: 400;
+text-align: justify;
+}
+
+
+.mt {
+    margin-top: 180px;
+}
+.ta-r{
+    text-align:right;
+}
+
+.section2 img {
+    margin-top: -100px;
+}
+
+
+
+
+.paragraph {
+ color: var(--german-uds-primary-light-blue-900, #344864);
+font-family: Source Sans Pro;
+font-size: 18px;
+font-weight: 400;
+max-width: 50%;
+text-align: justify;
+float:left;
+}
+
+.paragraph2 {
+ color: var(--german-uds-primary-light-blue-900, #344864);
+font-family: Source Sans Pro;
+font-size: 18px;
+font-weight: 400;
+max-width: 50%;
+text-align: justify;
+float:right;
+}
+
+
+
+
+
+}
+
+
+/* section end */
 #header {
     color: var(--base-colours-white, #FFF);
     font-size: 40px;
