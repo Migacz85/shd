@@ -120,3 +120,18 @@ margin-bottom: 30px;
   .slick-arrow.slick-hidden {
       display: none;
   }
+
+  /*Mobile */
+@media (max-width: 1250px) { 
+
+ .logo-item img{
+    padding:8px;
+    height:40px;
+    width:auto;
+ } 
+  .slick-slide {
+margin-top: 30px;
+margin-bottom: 30px;
+  }
+
+}
